@@ -1,0 +1,115 @@
+Table of contents
+1. Environment Setup
+2. Physics Engine Integration
+3. Projectile Mechanics
+4. Target Mechanics
+5. User Interface and Controls
+6. Audio and Visual Effects
+7. Performance Optimization
+8. Code Structure and Documentation
+9. Testing and Validation
+
+
+1. Environment Setup
+// Initialize the environment
+void initEnvironment() {
+    // Load the 3D map model
+    // Apply textures and set up lighting
+}
+
+// This function sets up dynamic lighting in the environment
+void setupLighting() {
+    // Code to initialize and configure lighting
+}
+
+
+2. Physics Engine Integration
+// Initialize the True Axis physics world
+void initPhysicsWorld() {
+    // Code to create and set up the physics world
+}
+
+// Implement gravity and collision in the physics world
+void setupGravityAndCollision() {
+    // Code to configure gravity and collision parameters
+}
+
+
+3. Projectile Mechanics
+// Function to create and launch the projectile
+void fireProjectile(float power) {
+    // Instantiate the projectile
+    // Set its initial position and velocity based on the power parameter
+    // Apply physics laws for trajectory calculation
+}
+
+// Function to generate targets with random mass and size
+void generateTargets() {
+    for (int i = 0; i < 9; ++i) {
+        // Create a cube with random mass and size
+        // Place it in the environment
+    }
+}
+
+
+4. Target Mechanics
+// Physics response of targets upon impact
+void onProjectileImpact(Target& target, Projectile& projectile) {
+    // Calculate the response based on the target's mass and projectile's velocity
+}
+
+
+// Function to render the crosshair in the center of the screen
+void renderCrosshair() {
+    // Code for rendering the red cross at the screen center
+}
+
+
+5. User Interface and Controls
+// Function to handle mouse control for aiming and firing
+void handleMouseInput() {
+    // Code to adjust view direction based on mouse movement
+    // Detect mouse button press for firing
+}
+
+
+6. Audio and Visual Effects
+// Play sound effects for firing and impacts
+void playSoundEffect(SoundType type) {
+    // Code to play the appropriate sound effect
+}
+
+// Visual feedback on impact
+void showImpactEffect() {
+    // Code to display particle effects or other visual responses
+}
+
+
+// Optimize physics calculations
+void optimizePhysics() {
+    // Implement strategies to make physics calculations more efficient
+}
+
+7. Performance Optimization
+// Optimize graphics rendering
+void optimizeRendering() {
+    // Code to adjust rendering based on hardware capabilities
+}
+
+8. Code Structure and Documentation
+// Example of a well-documented function
+/**
+ * Initializes the game environment.
+ * Sets up models, lighting, and textures.
+ */
+void initGameEnvironment() {
+    // Function implementation
+}
+
+
+9. Testing and Validation
+// Example unit test for projectile launching
+void testProjectileLaunch() {
+    // Test the projectile launch functionality
+    // Verify the initial position and velocity
+}

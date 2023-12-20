@@ -1,0 +1,18 @@
+App name: Cannonfire
+
+App description: A 3d environment where the user is able to fire projectiles at objects in the environment. The user can control the velocity of the projectile and it's impact on the target.
+
+Environment: medium/large map size. shadows, lighting, textures
+Environmental physics: Collision, gravity, impact physics
+
+Projectile: Small black sphere
+Target: cubes of random mass and size
+Number of targets: 9
+
+Crossair: Small red cross fixed in the center of the users view
+
+Input control: aim using mouse, full control of view. Fire using left mouse button
+Velocity control: hold fire button to increase power and speed of projectile
+
+Impacted target: Velocity of the projectile and mass of the target affects the impact of the targets physics
+
